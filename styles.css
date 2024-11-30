@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #A0522D;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #D2691E;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 1.5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Stilizarea butoanelor */
+.btn {
+    display: inline-block;
+    background-color: #8B4513; /* Culoare maro */
+    color: #fff; /* Text alb */
+    padding: 10px 20px; /* Spațiere interioară */
+    font-size: 16px; /* Dimensiunea textului */
+    border: none; /* Fără bordură */
+    border-radius: 25px; /* Colțuri rotunjite */
+    cursor: pointer; /* Cursor pointer */
+    text-align: center; /* Text centrat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Umbra butonului */
+    transition: all 0.3s ease; /* Tranziție lină */
+}
+
+/* Efect la hover */
+.btn:hover {
+    background-color: #5A3220; /* O nuanță mai închisă de maro */
+    transform: scale(1.05); /* Mărire ușoară */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Umbra mai intensă */
+}
+
+/* Centrarea butoanelor */
+.buton-expresor {
+    text-align: center;
+    margin: 15px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.profileimage {
+    width: 200px; /* Ajustează lățimea după preferințele tale */
+    height: auto; /* Înălțimea se va ajusta automat pentru a păstra proporțiile imaginii */
+  }
